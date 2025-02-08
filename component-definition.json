@@ -447,7 +447,7 @@
           }
         },
         {
-          "title": "Panel",
+          "title": "Panel_lovely",
           "id": "panel",
           "plugins": {
             "xwalk": {
