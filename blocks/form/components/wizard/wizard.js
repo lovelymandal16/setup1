@@ -126,6 +126,9 @@ export class WizardLayout {
       if (child.hasAttribute('data-visible')) {
         li.dataset.visible = child.dataset.visible;
       }
+      if(child.querySelector('legend')?.hasAttribute('data-visible')){
+      	li.dataset.visible = child.querySelector('legend').dataset.visible; 
+      }
       ul.append(li);
     });
     return ul;
